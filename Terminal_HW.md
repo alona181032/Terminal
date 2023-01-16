@@ -1,42 +1,36 @@
 ### Linux terminal (GitBash) commands
 
-1. Посмотреть где я  
-> pwd
-2. Создать папку
-> mkdir folder1
-3. Зайти в папку
-> cd folder1
-4. Создать 3 папки
->mkdir fold1 fold2 fold3
-5. Зайти в любую папку
->cd fold1
-6. Создать 5 файлов (3 txt, 2 json)
->touch file1.txt file2.txt file3.txt file1.json file2.json
+1. Посмотреть где я      `pwd`
+2. Создать папку         `mkdir folder1`
+3. Зайти в папку         `cd folder1`
+4. Создать 3 папки       `mkdir fold1 fold2 fold3`
+5. Зайти в любую папку   `cd fold1`
+6. Создать 5 файлов (3 txt, 2 json)   `touch file1.txt file2.txt file3.txt file1.json file2.json`
 7. Создать 3 папки
->mkdir fold1_ fold2_ fold3_
+`mkdir fold1_ fold2_ fold3_`
 8. Вывести список содержимого папки
->ls-la
+`ls-la`
 9. Открыть любой txt файл
-> nano file1.txt
+`nano file1.txt`
 10. Написать туда что-нибудь, любой текст.
->  "Hello,world!"  
+`"Hello,world!"`  
 11. Сохранить и выйти.
->Cntr+X  y  Enter
+`Cntr+X  y  Enter`
 12. Выйти из папки на уровень выше
->cd ..
+`cd ..`
 13. Переместить любые 2 файла, которые вы создали, в любую другую папку. 
->mv file1.txt file2.txt fold2_
+`mv file1.txt file2.txt fold2_`
 14. Скопировать любые 2 файла, которые вы создали, в любую другую папку.
->cp  file1.json file2.json fold3_
+`cp  file1.json file2.json fold3_`
 15. Найти файл по имени 
-> find . -iname "file1.json"
+`find . -iname "file1.json"`
 16. Просмотреть содержимое в реальном времени (команда grep) изучите как она работает.
-> tail -f file1.txt
+`tail -f file1.txt`
 18. Вывести несколько первых строк из текстового файла
-> head -n 2 file1.txt
+`head -n 2 file1.txt`
 19. Вывести несколько последних строк из текстового файла
->tail -n 5 file1.txt
+`tail -n 5 file1.txt`
 20. Просмотреть содержимое длинного файла (команда less) изучите как она работает.
->less -s file1.txt
+`less -s file1.txt`
 21. Вывести дату и время
->date
+`date`
